@@ -7,13 +7,13 @@ public class main {
 
 	public static void main(String[] args) {
 	
-		Scanner input = new Scanner(System.in);
+	Scanner input = new Scanner(System.in);
 		
-		int n, r, result=1, result2=1, result3=1;
-		System.out.println("Enter n:");
-		n = input.nextInt();
+	    int n, r, result=1, result2=1, result3=1;
+	    System.out.println("Enter n:");
+	    n = input.nextInt();
 		
-		System.out.println("Enter r:");
+	    System.out.println("Enter r:");
 	    r = input.nextInt();
 	    result = 1;
 	    
@@ -36,5 +36,6 @@ public class main {
 	    int C = result / (result2 * result3);
 
         System.out.println("C(" + n + "," + r + ") = " + C);	    	
-	}
+	
+  }
 }
