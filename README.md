@@ -37,5 +37,5 @@ public class main {
 
         System.out.println("C(" + n + "," + r + ") = " + C);	    	
 	
-  }
+      }
 }
